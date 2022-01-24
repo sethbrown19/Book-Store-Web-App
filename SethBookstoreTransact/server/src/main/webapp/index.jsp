@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1>Database content</h1>
-<sql:query var="result" dataSource="jdbc/SethBookstore">
+<sql:query var="result" dataSource="jdbc/bookstore">
   SELECT * FROM category, book
   WHERE category.category_id = book.category_id
 </sql:query>

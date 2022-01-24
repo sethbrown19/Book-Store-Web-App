@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context path="/">
-    <Resource name="jdbc/SethBookstore"
+    <Resource name="jdbc/bookstore"
               auth="Container"
               type="javax.sql.DataSource"
-              maxTotal="4"
-              maxIdle="0"
+              maxTotal="5"
+              maxIdle="2"
               maxWaitMillis="10000"
-              username="sethbrown19"
-              password="8237"
+              username="sethbrown"
+              password="09812365"
               driverClassName="com.mysql.cj.jdbc.Driver"
               removeAbandonedOnBorrow="true"
               removeAbandonedOnMaintenance="true"
@@ -15,5 +15,5 @@
               logAbandoned="true"
               minEvictableIdleTimeMillis="300000"
               timeBetweenEvictionRunsMillis="300000"
-              url="jdbc:mysql://cs5244.cs.vt.edu:3306/SethBookstoreDB"/>
+              url="jdbc:mysql://198.199.77.143:3306/bookstore"/>
 </Context>
